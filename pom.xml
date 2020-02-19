@@ -36,6 +36,13 @@
         </repository>
     </repositories>
 
+    <repositories>
+        <repository>
+            <id>mikeprimm-repo</id>
+            <url>http://repo.mikeprimm.com/</url>
+        </repository>
+    </repositories>
+
     <distributionManagement>
         <repository>
             <id>md_5-releases</id>
