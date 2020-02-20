@@ -3,11 +3,13 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <parent>
-        <groupId>org.sonatype.oss</groupId>
-        <artifactId>oss-parent</artifactId>
-        <version>7</version>
-    </parent>
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub OWNER Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/TeamOrangeServer/Paper-1.7</url>
+        </repository>
+    </distributionManagement>
 
     <groupId>org.github.paperspigot</groupId>
     <artifactId>paperspigot-parent</artifactId>
@@ -42,16 +44,9 @@
             <id>elmakers-repo</id>
             <url>http://maven.elmakers.com/repository/</url>
         </repository>
-    </repositories>
-
-    <distributionManagement>
         <repository>
-            <id>md_5-releases</id>
-            <url>http://repo.md-5.net/content/repositories/releases/</url>
+            <id>github</id>
+            <url>https://maven.pkg.github.com/TeamOrangeServer/Paper-1.7</url>
         </repository>
-        <snapshotRepository>
-            <id>md_5-snapshots</id>
-            <url>http://repo.md-5.net/content/repositories/snapshots/</url>
-        </snapshotRepository>
-    </distributionManagement>
+    </repositories>
 </project>
