@@ -39,8 +39,8 @@
             <url>http://repo.mikeprimm.com/</url>
         </repository>
         <repository>
-          <id>elmakers-repo</id>
-          <url>http://maven.elmakers.com/repository/</url>
+            <id>elmakers-repo</id>
+            <url>http://maven.elmakers.com/repository/</url>
         </repository>
     </repositories>
 
